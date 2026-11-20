@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Platinum — GTA VI Trophy Guide &amp; Tracker</title>
+<meta name="description" content="Offline guide and tracker for all 55 Grand Theft Auto VI PlayStation 5 trophies: official names, descriptions and grades, cited guides, roadmap, missable flags, checklist with export and import.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="eyebrow">Grand Theft Auto VI &middot; PlayStation 5 &middot; 55 trophies</p>
+    <h1>Leonida Platinum</h1>
+    <p class="tagline">The offline guide and tracker for every GTA VI trophy — official names, cited guides, a roadmap to the platinum, and the missables flagged.</p>
+    <div class="progress-wrap" aria-label="Overall progress">
+      <div class="progress-bar"><div id="progressFill" class="progress-fill" style="width:0%"></div></div>
+      <p class="progress-text"><strong id="progressCount">0 of 55 earned</strong> &middot; <span id="progressPct">0%</span> &middot; <span id="gradeCounts"></span></p>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Sections">
+  <button type="button" class="tab active" data-view="checklist">Checklist</button>
+  <button type="button" class="tab" data-view="roadmap">Platinum Roadmap</button>
+  <button type="button" class="tab" data-view="missables">Missables</button>
+</nav>
+
+<main>
+  <section id="view-checklist" class="view">
+    <div class="toolbar">
+      <label class="search">Search <input id="search" type="search" placeholder="Trophy name or description…" autocomplete="off"></label>
+      <fieldset class="kinds">
+        <legend>Kind</legend>
+        <button type="button" class="kind active" data-kind="all">All</button>
+        <button type="button" class="kind" data-kind="story">Story</button>
+        <button type="button" class="kind" data-kind="missable">Missable</button>
+        <button type="button" class="kind" data-kind="collectibles">Collectibles</button>
+        <button type="button" class="kind" data-kind="activities">Activities</button>
+        <button type="button" class="kind" data-kind="online">Online</button>
+      </fieldset>
+      <label class="grade">Grade
+        <select id="grade">
+          <option value="all">All grades</option>
+          <option value="platinum">Platinum</option>
+          <option value="gold">Gold</option>
+          <option value="silver">Silver</option>
+          <option value="bronze">Bronze</option>
+        </select>
+      </label>
+      <label class="spoiler"><input id="spoiler" type="checkbox"> Spoiler-free (hide story trophies until earned)</label>
+      <div class="io">
+        <button id="export" type="button">Export progress</button>
+        <label class="import-btn">Import progress <input id="import" type="file" accept="application/json,.json"></label>
+        <button id="reset" type="button" class="quiet">Reset</button>
+      </div>
+    </div>
+    <p id="resultCount" class="result-count" aria-live="polite"></p>
+    <div class="layout">
+      <div class="list-col">
+        <ol id="trophyList" class="trophy-list"></ol>
+        <p id="emptyState" class="empty" hidden>No trophies match these filters. Try clearing the search or picking another kind.</p>
+      </div>
+      <aside id="detail" class="detail" aria-live="polite"></aside>
+    </div>
+  </section>
+
+  <section id="view-roadmap" class="view" hidden>
+    <h2>Roadmap to the platinum</h2>
+    <p class="lede">Play in this order. Everything below is built from the official trophy descriptions — chapter and mission names, collectible counts, and the 100% requirement — not from guesswork. Where the official description does not state a detail, the guide says so.</p>
+    <ol class="roadmap">
+      <li><h3>Stage 1 — Story first (Chapters 1–4 + finale)</h3><p>Earn the chapter trophies <strong>Paradise Lost</strong>, <strong>T**s Ass Drug Money</strong>, <strong>Vice City, Baby!</strong> and <strong>Top Of The World, Ma</strong>, the mission trophies (<strong>Gone Fishing</strong>, <strong>Breakfast Run</strong>, <strong>The Cartel Heist</strong>, <strong>Child's Play</strong>, <strong>Headliners</strong>, <strong>VCIA Takedown</strong>, <strong>Operation Savage Glory</strong>) and the gold <strong>You Gotta Know When to Get Off</strong> for the final mission. Keep a <strong>separate save before the finale</strong> and before any big story choice: three trophies look tied to one-off choices or moments (see Missables).</p></li>
+      <li><h3>Stage 2 — Contact strands</h3><p>Finish the final mission for each named contact: Andy, Kenton, Billy, Randy and Tyrone — <strong>Road to Rehabilitation</strong>, <strong>This Was No Boat Accident</strong>, <strong>The Lone Rider</strong>, <strong>Supply &amp; Demand</strong>, <strong>Spin On This!</strong>. Along the way, complete 8 stranger strands for <strong>Strangers &amp; Freaks</strong>.</p></li>
+      <li><h3>Stage 3 — See all of Leonida</h3><p>Explore the whole map for <strong>The Goodtime State</strong>, discover 100 vehicles (<strong>Whip It Good</strong>), WAiNK It at 100 locations (<strong>You WAiNKer!</strong>), meditate at every spot (<strong>Positive Mental Attitude</strong>) and register 10 vehicles in the Scooter Bros app (<strong>On the Spot</strong>). Do these while travelling between missions — they stack with normal play.</p></li>
+      <li><h3>Stage 4 — Activities &amp; skills</h3><p>Gold all 42 Shooting Range challenges (<strong>The Shootist</strong>), complete 250 stunts (<strong>Cunning Stunts</strong>), win 20 different races (<strong>Earn Cash, Not Kudos</strong>) and a drone race at every location (<strong>Top Fun</strong>), beat Cal at fishing (<strong>Baited My Tackle</strong>), finish an arcade game (<strong>Stick Fiddler</strong>), bowl at Kolt &amp; Associates (<strong>Let’s Go Bowling</strong>, <strong>Ten Pin</strong>) and try every activity once (<strong>Master of None</strong>).</p></li>
+      <li><h3>Stage 5 — Crime, money &amp; collections</h3><p>Rob 5 bank vaults (<strong>Maximum Withdrawal</strong>), an armored truck (<strong>A Classic Blitz Play</strong>), a jewelry store undetected (<strong>Sneakthief</strong>) and an illegal operation per gang (<strong>Pest Control</strong>); launder $250,000 in Marked Bills (<strong>Dime on the Dollar</strong>), spend $100,000 (<strong>Treat Yo Self</strong>), buy all garage properties (<strong>Little Boxes</strong>) and complete 3 card sets (<strong>Don’t Touch My Deck</strong>).</p></li>
+      <li><h3>Stage 6 — Clean-up &amp; 100%</h3><p>Complete 50 Challenges (<strong>One Last Thing</strong>), hunt Bret's unique animal (<strong>Fair Game</strong>), then chase <strong>A Long Road</strong> — 100% completion — and the platinum <strong>Vice Got a Price!</strong> unlocks with it.</p></li>
+    </ol>
+  </section>
+
+  <section id="view-missables" class="view" hidden>
+    <h2>Missable trophies</h2>
+    <p class="lede">PlayStation does not mark any trophy in the official list as missable, and this guide does not invent flags. Three trophies are flagged <strong>possibly missable</strong> because their official descriptions describe a single story choice or a one-off moment — do them when they come up, and keep a separate save first. Every other trophy can be earned after the story in free roam, as far as the official descriptions state.</p>
+    <ol id="missableList" class="trophy-list"></ol>
+  </section>
+</main>
+
+<footer>
+  <h2>Sources &amp; honesty notes</h2>
+  <p>Official trophy names, descriptions and grades: PlayStation, as listed by <a href="https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/">Exophase</a> and <a href="https://psnprofiles.com/trophies/43531-grand-theft-auto-vi">PSNProfiles</a> (the two agree on every name, description and grade). Each trophy's guide cites the same sources beside it. 28 of the 55 trophies are hidden on PlayStation until earned; this guide does not guess which ones. Where a trophy's details are unconfirmed in the official description, its guide says so plainly instead of inventing a walkthrough. All guide text is written in my own words. No Rockstar Games artwork, logo or screenshots are used. This app works fully offline: it loads only its own files and saves progress in your browser (localStorage).</p>
+  <p class="small">Leonida Platinum — an unofficial fan guide. Grand Theft Auto and GTA are trademarks of Take-Two Interactive. Not affiliated with Rockstar Games or PlayStation.</p>
+</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>
